@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0; 
+    background-image: url(./images/desert.jpg);
+    background-size: 1366px 630px;
+}
+.five{
+    width: 80px;
+    position: relative;
+    left: 90px;top: 25px;
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: right;
+    margin-top: -40px;
+
+}
+.foura{ 
+    padding: 40px;
+    color: white;
+
+}
+.fourb{ 
+    padding: 40px;
+
+}
+.fourc{ 
+    padding: 40px;
+
+}
+.fourd{ 
+    padding: 40px;
+
+}
+.fivea{
+    color: white;
+    text-decoration: none;
+}
+.fiveb{
+    color: white;
+    text-decoration: none;
+}
+.fivec{
+    color: white;
+    text-decoration: none;
+}
+.fived{
+    color: white;
+}
+.parent-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 530px;
+  }
+  
+  .left {
+    width: auto;
+    height: 400px;
+    color: white;
+    padding-top: 80px;
+    padding-left: 100px;
+  }
+  
+  h1 {
+    font-size: 70px;
+    margin-bottom: 0px;
+  }
+  
+  .right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: auto;
+    padding-left: 300px;
+    padding-top: 50px;
+  }
+  
+  .box {
+    margin: 20px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.5s;
+  }
+  
+  .box1 {
+    background-image: url(./images/pic-1.png);
+    background-size: cover;
+  }
+  
+  .box2 {
+    background-image: url(./images/pic-2.png);
+    background-size: cover;
+  }
+  
+  .box3 {
+    background-image: url(./images/pic-3.png);
+    background-size: cover;
+  }
+  
+  .box4 {
+    background-image: url(./images/pic-4.png);
+    background-size: cover;
+  }
+  
+  h4 {
+    margin: 0px;
+    padding: 15px 0px 0px 20px;
+  }
+  
+  .data {
+    font-size: 10px;
+    padding: 0px 20px 0px 20px;
+    line-height: 25px;
+    margin: 0px;
+  }
+  
+  button {
+    padding: 10px 50px;
+    border-radius: 25px;
+    border: none;
+  }
+  .box:hover{
+      transform: translateY(-10px);
+
+  }
+  @media screen and (max-width:856px) {
+    body {
+      padding-left: 30px;
+    }
+    .one {
+      text-align: center;
+      margin: 0px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      float: right;
+      padding: 0px;
+    }
+    .three {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: right;
+    margin-top: 18px;
+    margin-right: -185px;
+    
+    }
+    .fourd {
+      grid-column: 2/3;
+      grid-row: 1/4;
+      position: relative;
+      left: -28px;
+      top: -12px;
+    }
+    .six{
+        width: 30px;
+
+    }
+    .two {
+      left: -10px;
+      top: -15px;
+    }
+    .five{
+            /* margin: 5px; */
+    /* margin-left: 10px; */
+    position: fixed;
+    top: 10px;
+    width: 50px;
+    }
+    #logo {
+      width: 60px;
+    }
+    .parent-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      background-size: cover;
+    }
+    .left {
+      padding: 0px;
+    }
+    h1 {
+      margin-top: 70px;
+      font-size: 30px;
+    }
+    .right {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .box {
+    justify-content: center;
+       width: 450px;
+      height: 220px;
+      padding: auto;
+    }
+  }
+  
